@@ -1,0 +1,187 @@
+{
+  "projectId": "integration-test-service",
+  "modules"
+  : [
+    {
+      "address": "192.168.123.125:1883",
+      "type": "MqttClient",
+      "moduleID": "Клиент_MQTT_№_6",
+      "additionalParameters": {},
+      "moduleInputs": [
+        {
+          "tag": "Current_phase_A",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Current_phase_B",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Current_phase_C",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Voltage_phase_A",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Voltage_phase_B",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Voltage_phase_C",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Power_phase_A",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Power_phase_B",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Power_phase_C",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Current_phase_N",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Voltage_phase_N",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_A",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_B",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_C",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_AB",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_BC",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_CA",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Resistance_N",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Voltage_AB",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        },
+        {
+          "tag": "Voltage_BC",
+          "type": "Measurement",
+          "parameters": "comm/current"
+        }
+      ],
+      "moduleOutputs": [
+        {
+          "tag": "Breaker_A",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Breaker_B",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Breaker_C",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Breaker_ABC",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Key_A",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Key_B",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Key_C",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Key_ABC",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Voltage_0",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Current_0",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Voltage_1",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Current_1",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Voltage_2",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        },
+        {
+          "tag": "Current_2",
+          "type": "Command",
+          "parameters": "comm/voltage!-!1!-!true"
+        }
+
+      ]
+    }
+  ]
+}

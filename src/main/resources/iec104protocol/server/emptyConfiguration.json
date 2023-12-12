@@ -1,0 +1,13 @@
+{
+  "projectId": "integration-test-service",
+  "modules": [
+    {
+      "address": "",
+      "type": null,
+      "moduleID": "",
+      "additionalParameters": null,
+      "moduleInputs": [],
+      "moduleOutputs": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "projectId": "integration-test-service",
+  "modules": [
+    {
+      "address": "192.168.123.125:1883",
+      "type": "MqttClient",
+      "moduleID": "Сервер_МЭК_104_№_5",
+      "additionalParameters": null,
+      "moduleInputs": [],
+      "moduleOutputs": []
+    }
+  ]
+}
