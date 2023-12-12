@@ -3,21 +3,11 @@
   "modules"
   : [
   {
-    "address": "192.168.123.111:2444",
+    "address": "192.168.123.4:2444",
     "type": "Iec104Client",
     "moduleID": "Клиент_МЭК_104_№_2",
     "additionalParameters": {},
     "moduleInputs": [
-      {
-        "tag": "s0",
-        "type": "Measurement",
-        "parameters": "M_SP_NA_1!-!1001!-!1!-!1!-!0.0"
-      },
-      {
-        "tag": "s1",
-        "type": "Measurement",
-        "parameters": "M_SP_TB_1!-!1002!-!1!-!1!-!1.0"
-      },
       {
         "tag": "s2",
         "type": "Measurement",
@@ -37,16 +27,6 @@
         "tag": "s5",
         "type": "Measurement",
         "parameters": "M_ME_TF_1!-!1006!-!1!-!1!-!0.0"
-      },
-      {
-        "tag": "sb1",
-        "type": "Measurement",
-        "parameters": "M_SP_NA_1!-!1007!-!1!-!1!-!0.0"
-      },
-      {
-        "tag": "sn1",
-        "type": "Measurement",
-        "parameters": "M_SP_TB_1!-!1008!-!1!-!1!-!1.0"
       },
       {
         "tag": "zn1",
