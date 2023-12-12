@@ -1,0 +1,13 @@
+{
+  "projectId": "integration-test-service",
+  "modules": [
+    {
+      "address": "192.168.123.4:2444",
+      "type": "Iec104Client",
+      "moduleID": "Клиент_МЭК_104_№_50",
+      "additionalParameters": null,
+      "moduleInputs": [],
+      "moduleOutputs": []
+    }
+  ]
+}
