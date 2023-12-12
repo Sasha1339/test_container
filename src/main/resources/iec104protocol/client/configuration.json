@@ -1,0 +1,222 @@
+{
+  "projectId": "integration-test-service",
+  "modules"
+  : [
+  {
+    "address": "192.168.123.111:2444",
+    "type": "Iec104Client",
+    "moduleID": "Клиент_МЭК_104_№_2",
+    "additionalParameters": {},
+    "moduleInputs": [
+      {
+        "tag": "s0",
+        "type": "Measurement",
+        "parameters": "M_SP_NA_1!-!1001!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "s1",
+        "type": "Measurement",
+        "parameters": "M_SP_TB_1!-!1002!-!1!-!1!-!1.0"
+      },
+      {
+        "tag": "s2",
+        "type": "Measurement",
+        "parameters": "M_ME_NB_1!-!1003!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "s3",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1004!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "s4",
+        "type": "Measurement",
+        "parameters": "M_ME_TE_1!-!1005!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "s5",
+        "type": "Measurement",
+        "parameters": "M_ME_TF_1!-!1006!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sb1",
+        "type": "Measurement",
+        "parameters": "M_SP_NA_1!-!1007!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sn1",
+        "type": "Measurement",
+        "parameters": "M_SP_TB_1!-!1008!-!1!-!1!-!1.0"
+      },
+      {
+        "tag": "zn1",
+        "type": "Measurement",
+        "parameters": "M_ME_NB_1!-!1009!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "zab",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1010!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "zca",
+        "type": "Measurement",
+        "parameters": "M_ME_TE_1!-!1011!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "uab1",
+        "type": "Measurement",
+        "parameters": "M_ME_TF_1!-!1012!-!1!-!1!-!0.0"
+      }
+    ],
+    "moduleOutputs": [
+      {
+        "tag": "ia",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4001!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ib",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4002!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ic",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4003!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "in",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4004!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ua",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4005!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ub",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4006!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "uc",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4007!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "un",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4008!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "za",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4009!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "zb",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4010!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "zc",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4011!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "zn",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4012!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "uab",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4013!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ubc",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4014!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "uca",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4015!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ubl",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4016!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sa",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4017!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sb",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4018!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sc",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4019!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sn",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4020!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "bool",
+        "type": "Command",
+        "parameters": "C_SC_TA_1!-!4021!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ib1",
+        "type": "Command",
+        "parameters": "C_SC_NA_1!-!4022!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ic1",
+        "type": "Command",
+        "parameters": "C_SC_TA_1!-!4023!-!1!-!1!-!1.0"
+      },
+      {
+        "tag": "in1",
+        "type": "Command",
+        "parameters": "C_SE_NA_1!-!4024!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ua1",
+        "type": "Command",
+        "parameters": "C_SE_NB_1!-!4025!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "ub1",
+        "type": "Command",
+        "parameters": "C_SE_NC_1!-!4026!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "uc1",
+        "type": "Command",
+        "parameters": "C_SE_TA_1!-!4027!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "un1",
+        "type": "Command",
+        "parameters": "C_SE_TB_1!-!4028!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "sa1",
+        "type": "Command",
+        "parameters": "C_SE_TC_1!-!4029!-!1!-!1!-!0.0"
+      }
+    ]
+  }
+]
+}
+
