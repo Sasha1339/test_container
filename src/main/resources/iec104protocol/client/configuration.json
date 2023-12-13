@@ -19,6 +19,66 @@
         "parameters": "M_ME_NC_1!-!1004!-!1!-!1!-!0.0"
       },
       {
+      "tag": "i1",
+      "type": "Measurement",
+      "parameters": "M_ME_NC_1!-!1013!-!1!-!1!-!0.0"
+      },
+      {
+      "tag": "i2",
+      "type": "Measurement",
+      "parameters": "M_ME_NC_1!-!1014!-!1!-!1!-!0.0"
+      },
+      {
+      "tag": "i3",
+      "type": "Measurement",
+      "parameters": "M_ME_NC_1!-!1015!-!1!-!1!-!0.0"
+      },
+      {
+      "tag": "i4",
+      "type": "Measurement",
+      "parameters": "M_ME_NC_1!-!1016!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i5",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1017!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i6",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1018!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i7",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1019!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i8",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1020!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i9",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1021!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i10",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1022!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i11",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1023!-!1!-!1!-!0.0"
+      },
+      {
+        "tag": "i12",
+        "type": "Measurement",
+        "parameters": "M_ME_NC_1!-!1024!-!1!-!1!-!0.0"
+      },
+      {
         "tag": "s4",
         "type": "Measurement",
         "parameters": "M_ME_TE_1!-!1005!-!1!-!1!-!0.0"
@@ -47,16 +107,6 @@
         "tag": "uab1",
         "type": "Measurement",
         "parameters": "M_ME_TF_1!-!1012!-!1!-!1!-!0.0"
-      },
-      {
-        "tag": "i_2",
-        "type": "Measurement",
-        "parameters": "M_ME_NA_1!-!1014!-!1!-!1!-!0.0"
-      },
-      {
-        "tag": "i_3",
-        "type": "Measurement",
-        "parameters": "M_ME_TD_1!-!1015!-!1!-!1!-!0.0"
       }
     ],
     "moduleOutputs": [
