@@ -3,7 +3,7 @@
   "modules"
   : [
   {
-    "address": "192.168.123.5:2444",
+    "address": "192.168.123.4:2444",
     "type": "Iec104Client",
     "moduleID": "Клиент_МЭК_104_№_2",
     "additionalParameters": {},
