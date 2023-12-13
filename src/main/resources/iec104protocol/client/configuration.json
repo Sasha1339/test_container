@@ -49,11 +49,6 @@
         "parameters": "M_ME_TF_1!-!1012!-!1!-!1!-!0.0"
       },
       {
-        "tag": "i_1",
-        "type": "Measurement",
-        "parameters": "M_DP_TA_1!-!1013!-!1!-!1!-!0.0"
-      },
-      {
         "tag": "i_2",
         "type": "Measurement",
         "parameters": "M_ME_NA_1!-!1014!-!1!-!1!-!0.0"
@@ -62,11 +57,6 @@
         "tag": "i_3",
         "type": "Measurement",
         "parameters": "M_ME_TD_1!-!1015!-!1!-!1!-!0.0"
-      },
-      {
-        "tag": "i_4",
-        "type": "Measurement",
-        "parameters": "M_ME_ND_1!-!1016!-!1!-!1!-!0.0"
       }
     ],
     "moduleOutputs": [
